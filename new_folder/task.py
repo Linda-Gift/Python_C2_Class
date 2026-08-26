@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git</title>
-</head>
-<body>
-    Task for Ezinne: #Tasks:
+
+    # Task for Ezinne: #Tasks:
     # Create a dictionary called "student" containing vital information about a student or students. create your own keys and values for the student.
     # print the dictionary
     # use the information stored in the dictionary in the above,:
@@ -21,5 +14,3 @@
     # Create a set of programming languages. Add "Python" and "Java" after creating, print the updated set
     # Create a set containing cities in the world, remove one city, and print the remaining cities
     # Ask a user to enter a fruit, check whether the fruit exists in a set you created. If it exists, print: "Fruit found!" otherwise, print: "Fruit not found!"
-</body>
-</html>
