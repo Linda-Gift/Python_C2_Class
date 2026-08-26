@@ -1,12 +1,12 @@
 Student = {
-    "Firstname" : "Ezinne",
-    "Middlename" : "Susan",
-    "Surname" : "Chikezirim",
-    "Address" : "No 1 Alimi Banire Street",
-    "Phone number" : 2347030308774,
-    "Religion" : "Christian",
-    "Department" : "Science department"
-    "Hobbies" : ["singing", "Dancing", "Swimming"]
+    "firstname" : "Ezinne",
+    "middlename" : "Susan",
+    "surname" : "Chikezirim",
+    "address" : "No 1 Alimi Banire Street",
+    "phone number" : 2347030308774,
+    "religion" : "Christian",
+    "department" : "Science department",
+    "hobbies" : ["singing", "Dancing", "Swimming"]
 }
 print(Student)
 
