@@ -38,10 +38,3 @@ cities.remove("Umuahia")
 
 print(cities)
 
-
-
-
-
-
-
-
