@@ -3,7 +3,7 @@ Student = {
     "middlename" : "Susan",
     "surname" : "Chikezirim",
     "address" : "No 1 Alimi Banire Street",
-    "phone_number" : 2347030308774,
+    "phone number" : 2347030308774,
     "religion" : "Christian",
     "department" : "Science department",
     "hobbies" : ["singing", "Dancing", "Swimming"]
@@ -11,6 +11,7 @@ Student = {
 print(Student)
 
 print(Student["Firstname"])
+print(Student["Course"])
 print(Student["Course"])
 
 
