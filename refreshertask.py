@@ -1,5 +1,7 @@
 from pprint import pprint
 
+from functions import add
+
 # Premier League Football Match Analysis
 # You are a programmer employed in an analytics company (     Omni Sport)
 # Your job is to analyze match statistics to provide insights for team managers, sport jornalists, and interested fantasy football players.
