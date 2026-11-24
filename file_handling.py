@@ -1,4 +1,6 @@
-# File handling 
+import csv
+
+#  File handling 
 # What file handling is and why it is useful: 
 # Open and close from text files
 # open()
@@ -58,6 +60,34 @@ with open("student", "r") as library:
 # Understanding file modes
 # Modes: Read, Write, Append, Extended
 # Read and write into files using Loops and functions
+# Handling missing files and other other common file errors: file not found, permission error: Write, read, is directory error, unicode decode error.
+
+# The code below returns an error because we are trying to read this as a file whereas it is a directory
+# with open("new_folder", "r") as library:
+#     answer = library.readlines()
+
+#     print(answer)
+
+
+try:
+    with open("new_folder", "r") as test:
+        content = test.read()
+        print(content)
+
+except FileNotFoundError:
+    print("This file does not exist")
+
+except PermissionError:
+    print("You do not have permission to read this file.")
+
+
+
 # Work with CSV and JSON files
-# Handling missing files and other other common file errors.
+# What is CSV: The full meaning of CSV is, comma separated values. It can be opened with excel otherwise known as spreadsheet. Each CSV values are column and rows separated by a comma.
+
+with open("superstore.xlsx", "r", newline="", encoding="utf-8") as spreadsheet:
+    container = csv.DictReader(spreadsheet)
+    for row in container:
+        print(row["Customer Name"], row["City"])
+
 # Build a practical application that stores and retrieves information
